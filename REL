@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farel Zadanial Hadi - Portfolio</title>
+    <!-- Memanggil Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white font-sans antialiased">
+    <div class="max-w-4xl mx-auto p-6 md:p-12">
+        
+        <!-- Header / Hero Section -->
+        <header class="text-center py-12 animate-fade-in-down">
+            <h1 class="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500">
+                Farel Zadanial Hadi
+            </h1>
+            <p class="mt-4 text-xl text-gray-400 font-light">Siswa SMP Negeri 1 Wonopringgo & Tech Enthusiast</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 mb-8 border border-gray-700 shadow-xl hover:border-blue-500 transition-colors duration-300">
+            <h2 class="text-2xl font-semibold mb-4 flex items-center gap-2">
+                <span class="text-blue-400">#</span> Tentang Saya
+            </h2>
+            <p class="text-gray-300 leading-relaxed">
+                Halo! Saya Farel Zadanial Hadi, siswa kelas IX.7 di <strong class="text-white">SMP Negeri 1 Wonopringgo</strong>. Saya memiliki minat yang besar di dunia teknologi, mulai dari scripting Python/Node.js hingga eksplorasi sistem operasi via terminal. Saya selalu antusias belajar hal baru di bidang IT dan manajemen bisnis digital.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 mb-8 border border-gray-700 shadow-xl hover:border-purple-500 transition-colors duration-300">
+            <h2 class="text-2xl font-semibold mb-4 flex items-center gap-2">
+                <span class="text-purple-400">#</span> Tech Stack & Keahlian
+            </h2>
+            <div class="flex flex-wrap gap-3">
+                <span class="px-4 py-2 bg-blue-900/50 text-blue-300 border border-blue-700 rounded-full text-sm font-medium tracking-wide">Python (pandas, weasyprint, PIL)</span>
+                <span class="px-4 py-2 bg-green-900/50 text-green-300 border border-green-700 rounded-full text-sm font-medium tracking-wide">Node.js</span>
+                <span class="px-4 py-2 bg-gray-700/50 text-gray-300 border border-gray-600 rounded-full text-sm font-medium tracking-wide">Termux & tmux</span>
+                <span class="px-4 py-2 bg-yellow-900/50 text-yellow-300 border border-yellow-700 rounded-full text-sm font-medium tracking-wide">Manajemen Bisnis Digital</span>
+                <span class="px-4 py-2 bg-red-900/50 text-red-300 border border-red-700 rounded-full text-sm font-medium tracking-wide">Aksara Jawa</span>
+            </div>
+        </section>
+
+        <!-- Experience & Projects Section -->
+        <section class="bg-gray-800/50 backdrop-blur-md rounded-2xl p-8 border border-gray-700 shadow-xl hover:border-pink-500 transition-colors duration-300">
+            <h2 class="text-2xl font-semibold mb-6 flex items-center gap-2">
+                <span class="text-pink-400">#</span> Pendidikan & Proyek
+            </h2>
+            <div class="space-y-6">
+                <!-- Education -->
+                <div class="relative pl-6 border-l-2 border-gray-600">
+                    <div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-blue-500"></div>
+                    <h3 class="text-xl font-bold text-gray-100">SMP Negeri 1 Wonopringgo</h3>
+                    <p class="text-sm text-blue-400 mb-2">Pendidikan Formal (Kelas IX.7)</p>
+                    <p class="text-gray-400">Aktif mengikuti kegiatan akademik serta persiapan kompetisi akademik di tingkat sekolah.</p>
+                </div>
+                <!-- Project 1 -->
+                <div class="relative pl-6 border-l-2 border-gray-600">
+                    <div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-purple-500"></div>
+                    <h3 class="text-xl font-bold text-gray-100">Farel Store</h3>
+                    <p class="text-sm text-purple-400 mb-2">Manajemen Usaha Mikro / Bisnis Digital</p>
+                    <p class="text-gray-400">Mengelola operasional bisnis secara mandiri, termasuk integrasi layanan pembayaran digital (QRIS, DANA, Flip) serta verifikasi merchant.</p>
+                </div>
+                <!-- Project 2 -->
+                <div class="relative pl-6 border-l-2 border-gray-600">
+                    <div class="absolute -left-[9px] top-1 h-4 w-4 rounded-full bg-pink-500"></div>
+                    <h3 class="text-xl font-bold text-gray-100">Verifikasi GitHub Student Pack</h3>
+                    <p class="text-sm text-pink-400 mb-2">Pendidikan / Development</p>
+                    <p class="text-gray-400">Mengurus verifikasi status pelajar aktif menggunakan surat keterangan sekolah untuk mendapatkan akses tools developer profesional.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center mt-12 text-gray-500 text-sm">
+            <p>&copy; 2026 Farel Zadanial Hadi. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
+
